@@ -632,6 +632,14 @@ span.user {
 	display: inline-block;
 	margin-right: 1em;
 }
+#Referências p{
+	margin-left: 2em;
+}
+#Referências p::before{
+    content: "."; /* Adiciona o ponto */
+	font-weight: bold;
+    margin-right: 10px; /* Espaço entre o ponto e o texto */
+}
 @media screen and (max-width: 850px) {
 	#searchInput {
 		width: 110px;
